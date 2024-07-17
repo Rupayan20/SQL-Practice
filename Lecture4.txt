@@ -1,0 +1,68 @@
+Lecture-4:
+Operator Used With Where Clause in SQL || Operator in Where Clause With Example:
+
+Operator: It is generally used to show relation.
+   1.	= (equal):
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where age=24;    
+  
+   2.	> (greater than):
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where Age>20;     
+ 
+  3.	< (less than):
+    Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where Age<24;      
+
+   4.	>= (greater than equals to):
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where Age>=22;      
+
+   5.	<= (less than equals to):
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where Age<=22;      
+
+   6.	<> (not equal)/ != (not equal):
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where Age<>22;
+
+   7.	Between
+     Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select * from Customer where age Between 21 AND 25;      
+
+   8.	In: To specify multiple possible value for column.
+     Table => Customer
+                Sl. No.            Name                Country
+                   1.               Rup                  India
+                   2.               Rupu                  US
+                   3.              Rupayan                USA  
+Command: select * from Customer where Country IN (‘India’, ‘US’);    
+                                       -------×-------
