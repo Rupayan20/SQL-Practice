@@ -1,0 +1,26 @@
+Lecture-1:
+Introduction to SQL:
+
+SQL: It is Structure Query Language. It is used to access or manipulate data in database.
+Database: It is used to store our data.
+a) RDBMS (Data stores Row & Column wise)
+b) MySQL (Oriented Database)
+
+Uses of SQL/Advantages of SQL:
+1.	Used to access data from database
+2.	Used to add data from database
+3.	Used to remove data from database
+4.	Used in backend part of various project
+5.	Used to make access permission
+6.	Used to create table
+7.	Database
+8.	Views
+
+Important Points:
+1.	SQL is not a case sensitive.
+  i)	Example: SELECT * FROM CUSTOMER
+               select * from customer
+               Select * From Customer
+2.	In SQL, after query end used semi-colon (;).
+  ii)	Example: select * from customer;
+                           -------×-------
