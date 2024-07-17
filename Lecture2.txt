@@ -1,0 +1,24 @@
+Lecture-2:
+Select Statement in SQL || Select Statement With 3 Different Ways:
+
+Select: Select is an SQL command that used to select data from database/table.
+    Example: Amazon => DB => Work
+                     Table => Customer => Number, Name, Email, Contact Number…
+
+Syntax: select * from table_name;
+   (statement) (entire database)  (key)  (given table)
+
+Command: select email from customer;
+         select email, name from customer;
+
+Distinct: It is used to retrieve unique values from a specified column or set of columns in a database table. It eliminates duplicate records, ensuring that only distinct, non-repeated values are returned. 
+  Table => Student
+                Sl. No.            Name                Course
+                   1.               Rup                  ECE
+                   2.               Rup             Web Development
+                   3.              Rupayan               ECE
+                   4.              Rupayan           Cloud Computing
+Command: select distinct Name from Student;
+Output: Rup => ECE => Web Development
+               Rupayan => ECE => Cloud Computing
+                                  -------×-------
