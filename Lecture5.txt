@@ -2,7 +2,7 @@ Lecture-5:
 Order By Keyword in SQL || Order By With Real Life Example:
 
 Order By: Order by is used to sort data or result in Ascending or Descending order.
-  Example: Amazon => Database => Customer
+Example: Amazon => Database => Customer
                 Sl. No.            Name                Age
                    1.              Rupu                 22
                    2.               Rup                 20
@@ -10,7 +10,8 @@ Order By: Order by is used to sort data or result in Ascending or Descending ord
                    4.               Rupi                22
 Criteria: Data is arranged by ascending order.
 Syntax: select */column_name from table_name Order by column_name asc/desc;
-        select */column_name from table_name Order by column_name; [Note: if you don’t mention asc/desc, then by default I we will give our result in ascending order.]        
+              select */column_name from table_name Order by column_name; 
+[Note: if you don’t mention asc/desc, then by default, we will give our result in ascending order.]        
 Command 1: select Name from Customer Order by Age asc;
 Output 1: Rup, Rupu, Rupi, Rupayan
 
@@ -18,8 +19,8 @@ Output 1: Rup, Rupu, Rupi, Rupayan
 Command 2: select Name from Customer Order by Age asc. Name desc;
 Output 2: Rup, Rupi, Rupu, Rupayan
 
-=> Order By used with Where Clause:
-   Table: Customer
+Order By used with Where Clause:
+Table: Customer
                 Sl. No.            Name                Age
                    1.              Rupu                 22
                    2.               Rup                 20
@@ -27,4 +28,5 @@ Output 2: Rup, Rupi, Rupu, Rupayan
                    4.               Rupi                23
 Command: select Name from Customer where Age>22 Order By Age desc;
 Output: Rupayan, Rupi
+
                                                       -------×-------
