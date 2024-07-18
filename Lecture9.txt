@@ -4,7 +4,6 @@ Insert Into Statement in SQL:
 Insert: It is used to insert/store records/data in database/table.
 Syntax1: Insert into table_name values (type_of_value1, type_of_value2, type_of_value3, so_on);
               [Note: Two types of values: Number, Integer]
-
 Example1: Amazon => Database => Customer
                 Sl. No.            Name                     Address                         Age
                    1.              Rupu                    Agarpara                          22
@@ -31,7 +30,7 @@ Command2.1: insert into Customer (“Sl. No.”, “Name”, “Address”, “A
 Output2.1:
                 Sl. No.            Name                     Address                         Age
                    1.              Rupu                    Agarpara                          22
-                   2.              Rupayan                  Fulia                            24 
+                   2.              Rupayan                  Fulia                            24
 
 [Note: If we want to add multiple values in our table, then we can easily do it with a single command]
 Command2.2: insert into Customer (“Sl. No.”, “Name”, “Address”, “Age”) values (3, “Rupi”, “Newtown”, 21), (4, “Rup”, “Salt Lake, Sector-5”,  20);
@@ -42,4 +41,4 @@ Output2.2:
                    3.              Rupi                      Newtown                         21
                    4.              Rup                 Salt Lake, Sector-5                   20
 
-                                                                          -------×-------
+                                                       -------×-------
