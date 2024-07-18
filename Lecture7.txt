@@ -14,7 +14,7 @@ Example: Amazon => Database => Customer
                    2.               Rup             Salt Lake, Sector-5                      20
                    3.             Rupayan                    Fulia                           24
                    4.               Rupi                    Newtown                          21
-Syntax: select * from table_name where condition1 OR condition2 OR condition3 OR so_on;
+Syntax: select *(or use “column_name”) from table_name where condition1 OR condition2 OR condition3 OR so_on;
 Command1: select Name from Customer where Address=”Agarpara” OR Address=”Fulia”;
 Output1: Rupu, Rupayan
 
@@ -24,4 +24,5 @@ Output2: Rupu, Rupayan, Rupi
 [Note: Now, I want to use AND and OR operation combinedly] 
 Command3: select Name from Customer where (Age>20 AND Age<25) AND (Address=”Salt Lake, Sector-5” OR Address=”Fulia”);
 Ouput3: Rupayan
+
                                                     -------×-------
