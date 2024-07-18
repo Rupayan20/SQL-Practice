@@ -27,4 +27,4 @@ Output 2: Rup, Rupi, Rupu, Rupayan
                    4.               Rupi                23
 Command: select Name from Customer where Age>22 Order By Age desc;
 Output: Rupayan, Rupi
-                                                              -------×-------
+                                                      -------×-------
