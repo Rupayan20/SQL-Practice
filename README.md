@@ -1,4 +1,4 @@
-# SSQL Notes: From Beginner to Expert
+# SQL Beginner to Advance
 
 <p> Welcome to the SQL Notes repository! This collection of notes is designed to guide you through the journey of learning SQL, from the basics to advanced concepts. Whether you are a beginner or preparing for an interview, these notes are crafted to help you understand and master SQL. </p>
 
