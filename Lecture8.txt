@@ -24,4 +24,4 @@ NOT use with IN:
 Command3: select Name from Customer where NOT Address IN (“Salt Lake, Sector-5”, “Newtown”);
 Output3: Rupu, Rupayan
 
-                                                 -------×-------
+                                                                              -------×-------
