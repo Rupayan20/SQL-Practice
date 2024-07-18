@@ -2,19 +2,20 @@ Lecture-6:
 AND Operator in SQL || AND Operator With Example:
 
 AND Operator: It is used to filter data based on one or more condition. The AND operator displays a record if all the conditions are TRUE.
-  Condition:
+Condition:
                                X         Y           Output
                                0         0             0
                                0         1             0
                                1         0             0
                                1         1             1
-  Example: Amazon => Database => Customer
+Example: Amazon => Database => Customer
                 Sl. No.            Name                     Address                         Age
                    1.              Rupu               Fulia, Rangamanch                      22
                    2.               Rup               Fulia Gosaipara Road                   20
                    3.              Rupayan             Fulia Station Para                    24
                    4.               Rupi                   Fulia Colony                      21
-Syntax: select * from table_name where condition1 AND condition2 AND condition3 AND so_on;
+Syntax: select *(or use “column_name”) from table_name where condition1 AND condition2 AND condition3 AND so_on;
 Command: select Name from Customer where (Age>18 AND Age<25) AND (Age<22 AND Age>20);
 Output: Rupi
+
                                                           -------×-------
