@@ -2,67 +2,76 @@ Lecture-4:
 Operator Used With Where Clause in SQL || Operator in Where Clause With Example:
 
 Operator: It is generally used to show relation.
-   1.	= (equal):
-     Table => Customer
+1.	= (equal):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where age=24;    
+Command: select Name from Customer where age=24;    
+Output: Rupayan
   
-   2.	> (greater than):
-     Table => Customer
+2.	> (greater than):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where Age>20;     
+Command: select Name from Customer where Age>20;     
+Output: Rupu, Rupayan
  
-  3.	< (less than):
-    Table => Customer
+3.	< (less than):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
 Command: select * from Customer where Age<24;      
+Output: Rup, Rupu
 
-   4.	>= (greater than equals to):
-     Table => Customer
+4.	>= (greater than equals to):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where Age>=22;      
+Command: select Name from Customer where Age>=22;     
+Output:  Rupu, Rupayan
 
-   5.	<= (less than equals to):
-     Table => Customer
+5.	<= (less than equals to):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where Age<=22;      
+Command: select Name from Customer where Age<=22;    
+Output: Rup, Rupu  
 
-   6.	<> (not equal)/ != (not equal):
-     Table => Customer
+6.	<> (not equal)/ != (not equal):
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where Age<>22;
+Command: select Name from Customer where Age<>22;
+Output: Rup, Rupayan
 
-   7.	Between
-     Table => Customer
+7.	Between:
+Table => Customer
                 Sl. No.            Name                Age
                    1.               Rup                 20
                    2.               Rupu                22
                    3.              Rupayan              24
-Command: select * from Customer where age Between 21 AND 25;      
+Command: select Name from Customer where age Between 21 AND 25;    
+Output: Rupu, Rupayan  
 
-   8.	In: To specify multiple possible value for column.
-     Table => Customer
-                Sl. No.            Name                Country
-                   1.               Rup                  India
-                   2.               Rupu                  US
-                   3.              Rupayan                USA  
-Command: select * from Customer where Country IN (‘India’, ‘US’);    
+8.	In: To specify multiple possible value for column.
+Table => Customer
+                Sl. No.            Name                Age
+                   1.               Rup                 20
+                   2.               Rupu                22
+                   3.              Rupayan              24
+Command: select Name from Customer where Country IN (‘IND, ‘US’);    
+Output: Rup, Rupu
+
                                                  -------×-------
