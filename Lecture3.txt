@@ -9,4 +9,4 @@ Where Clause: It is used to filter out the data from table based on specific con
                    3.              Rupayan               9162345439              Fulia
 Syntax: select column_name from table_name where condition;
 Command: select Name from Customer where Location= “Fulia”;
-                                          -------×-------
+                                              -------×-------
