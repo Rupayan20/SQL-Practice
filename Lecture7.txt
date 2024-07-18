@@ -1,0 +1,27 @@
+Lecture-7:
+OR Operator in SQL || OR Operator With Example:
+
+OR Operator: It is used to provide result based on condition. If any of the condition is satisfy it will return the output.
+Condition:
+                               X                  Y                  Output
+                               0                  0                    0
+                               0                  1                    1
+                               1                  0                    1
+                               1                  1                    1
+Example: Amazon => Database => Customer
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                    Agarpara                          22
+                   2.               Rup             Salt Lake, Sector-5                      20
+                   3.             Rupayan                    Fulia                           24
+                   4.               Rupi                    Newtown                          21
+Syntax: select * from table_name where condition1 OR condition2 OR condition3 OR so_on;
+Command1: select Name from Customer where Address=”Agarpara” OR Address=”Fulia”;
+Output1: Rupu, Rupayan
+
+Command2: select Name from Customer where (Address=”Agarpara” OR Address=”Fulia”) OR (Address=”Newtown”);
+Output2: Rupu, Rupayan, Rupi
+
+[Note: Now, I want to use AND and OR operation combinedly] 
+Command3: select Name from Customer where (Age>20 AND Age<25) AND (Address=”Salt Lake, Sector-5” OR Address=”Fulia”);
+Ouput3: Rupayan
+                                                                   -------×-------
