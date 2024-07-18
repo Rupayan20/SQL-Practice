@@ -1,0 +1,30 @@
+Lecture-10:
+IS NULL & IS NOT NULL in SQL || Handle Null Values in Database:
+
+Null Values: A field with NULL values has no value. Null value is different from zero (0) and white-space (“_”)
+In SQL NOT Null Values= 0, “ “ (space)
+                      Null Values= Blank/Empty
+Example: Amazon => Database => Customer
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                     Agarpara                         22
+                   2.              Rup                         __                             0
+                   3.              Rupayan                    Fulia                           24
+                   4.               __                       Newtown                          20
+[Note: In SQL, we can’t compare the null values with operators. Because null values do not exist, so we can’t compare null values with operator.]
+Syntax: select *(or use “column_name”) from table_name where column_name Is Null;
+[Note: Is Null is used to find null values.]
+Command: select * from Customer where Name Is Null;
+Output: 
+                Sl. No.            Name                     Address                         Age
+                   4.               __                      Newtown                          20
+
+Is NOT Null: It is used to check that my table contains any value or not.
+Syntax: select *(or use “column_name”) from table_name where column_name Is NOT Null:
+Command: select * from Customer where Address IS NOT Null;
+Output:
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                     Agarpara                         22
+                   3.              Rupayan                    Fulia                           24
+                   4.               __                       Newtown                          20
+
+                                                                               -------×-------
