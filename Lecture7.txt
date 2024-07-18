@@ -24,4 +24,4 @@ Output2: Rupu, Rupayan, Rupi
 [Note: Now, I want to use AND and OR operation combinedly] 
 Command3: select Name from Customer where (Age>20 AND Age<25) AND (Address=”Salt Lake, Sector-5” OR Address=”Fulia”);
 Ouput3: Rupayan
-                                                                   -------×-------
+                                                    -------×-------
