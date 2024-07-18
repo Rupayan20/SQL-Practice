@@ -1,4 +1,3 @@
-Lecture-3:
 Where Clause in SQL || Where Clause With Real Life Example:
 
 Where Clause: It is used to filter out the data from table based on specific condition.
@@ -7,6 +6,7 @@ Where Clause: It is used to filter out the data from table based on specific con
                    1.               Rup                  7699766588            Agarpara
                    2.               Rupu                 7472707733            Salt Lake
                    3.              Rupayan               9162345439              Fulia
-Syntax: select column_name from table_name where condition;
+Syntax: select *(or use “column_name”) from table_name where condition;
 Command: select Name from Customer where Location= “Fulia”;
-                                              -------×-------
+
+                                                 -------×-------
