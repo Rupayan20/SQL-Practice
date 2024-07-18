@@ -65,4 +65,4 @@ Command: select * from Customer where age Between 21 AND 25;
                    2.               Rupu                  US
                    3.              Rupayan                USA  
 Command: select * from Customer where Country IN (‘India’, ‘US’);    
-                                       -------×-------
+                                                 -------×-------
