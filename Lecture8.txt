@@ -1,12 +1,11 @@
 Lecture-8:
 NOT Operator in SQL || NOT Operator With Example:
-
 NOT Operator: It is used in SQL to provide or to get negative result or used in SQL to get opposite result.
 Condition:
                                X                 Output
                                0                    1
                                1                    0 
-Syntax: select * from table_name where NOT condition;
+Syntax: select *(or use “column_name”) from table_name where NOT condition;
 Example: Amazon => Database => Customer
                 Sl. No.            Name                     Address                         Age
                    1.               Rupu                    Agarpara                         22
@@ -24,4 +23,4 @@ NOT use with IN:
 Command3: select Name from Customer where NOT Address IN (“Salt Lake, Sector-5”, “Newtown”);
 Output3: Rupu, Rupayan
 
-                                                                              -------×-------
+                                                      -------×-------
