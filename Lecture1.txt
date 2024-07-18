@@ -18,9 +18,10 @@ Uses of SQL/Advantages of SQL:
 
 Important Points:
 1.	SQL is not a case sensitive.
-  i)	Example: SELECT * FROM CUSTOMER
-               select * from customer
-               Select * From Customer
+i)	Example: SELECT *(or “column_name”) FROM CUSTOMER
+                  select *(or “column_name”) from customer
+                         Select *(or “column_name”) From Customer
 2.	In SQL, after query end used semi-colon (;).
-  ii)	Example: select * from customer;
+ii)	Example: select *(or “column_name”) from customer;
+
                                                        -------×-------
