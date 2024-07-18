@@ -17,4 +17,4 @@ AND Operator: It is used to filter data based on one or more condition. The AND 
 Syntax: select * from table_name where condition1 AND condition2 AND condition3 AND so_on;
 Command: select Name from Customer where (Age>18 AND Age<25) AND (Age<22 AND Age>20);
 Output: Rupi
-                                                                             -------×-------
+                                                          -------×-------
