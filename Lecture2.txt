@@ -5,7 +5,7 @@ Select: Select is an SQL command that used to select data from database/table.
     Example: Amazon => DB => Work
                      Table => Customer => Number, Name, Email, Contact Number…
 
-Syntax: select * from table_name;
+Syntax: select *(or use “column_name”)  from table_name;
    (statement) (entire database)  (key)  (given table)
 
 Command: select email from customer;
