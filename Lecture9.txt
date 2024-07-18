@@ -1,0 +1,45 @@
+Lecture-9:
+Insert Into Statement in SQL:
+
+Insert: It is used to insert/store records/data in database/table.
+Syntax1: Insert into table_name values (type_of_value1, type_of_value2, type_of_value3, so_on);
+              [Note: Two types of values: Number, Integer]
+
+Example1: Amazon => Database => Customer
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                    Agarpara                          22
+[Note: This is Amazon’s current database]
+[Now, Three new customer named Rup, Rupi, Rupayan purchase a product from Amazon. So Amazon have to add Rupayan’s all data in their database for future purposes (Like: Upcoming Sales, Vouchers, Product Promotion etc. etc.]
+Command1.1: insert into Customer values (2, “Rupayan”, “Fulia”, 24);
+Output1.1:
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                    Agarpara                          22
+                   2.              Rupayan                  Fulia                            24
+
+[Note: If we want to add multiple values in our table, then we can easily do it with a single command]
+Command1.2: insert into Customer values (3, “Rupi”, “Newtown”, 21), (4, “Rup”, “Salt Lake, Sector-5”,  20);
+Output1.2:
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                     Agarpara                         22
+                   2.              Rupayan                    Fulia                          24
+                   3.              Rupi                      Newtown                         21
+                   4.              Rup                 Salt Lake, Sector-5                   20
+
+Insert Statement into specific column_name: 
+Syntax2: insert into table_name (column_name1, column_name2, so_on) values (type_of_value1, type_of_value2, type_of_value3, so_on);
+Command2.1: insert into Customer (“Sl. No.”, “Name”, “Address”, “Age”) values (2, “Rupayan”, “Fulia”, 24);
+Output2.1:
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                    Agarpara                          22
+                   2.              Rupayan                  Fulia                            24 
+
+[Note: If we want to add multiple values in our table, then we can easily do it with a single command]
+Command2.2: insert into Customer (“Sl. No.”, “Name”, “Address”, “Age”) values (3, “Rupi”, “Newtown”, 21), (4, “Rup”, “Salt Lake, Sector-5”,  20);
+Output2.2:
+                Sl. No.            Name                     Address                         Age
+                   1.              Rupu                     Agarpara                         22
+                   2.              Rupayan                    Fulia                          24
+                   3.              Rupi                      Newtown                         21
+                   4.              Rup                 Salt Lake, Sector-5                   20
+
+                                                                          -------×-------
