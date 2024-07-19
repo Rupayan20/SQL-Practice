@@ -20,5 +20,5 @@ Distinct: It is used to retrieve unique values from a specified column or set of
                    4.              Rupayan           Cloud Computing
 Command: select distinct Name from Student;
 Output: Rup => ECE => Web Development
-               Rupayan => ECE => Cloud Computing
+        Rupayan => ECE => Cloud Computing
                                                      -------×-------
