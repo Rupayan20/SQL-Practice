@@ -1,0 +1,29 @@
+Lecture-10:
+Update Statement in SQL:
+
+Update: It is used to modify existing records.
+Why we need to update data:
+1.	User Experience
+2.	Cost
+3.	Storage
+Example: Amazon => Database => Customer
+                SlNo              Name                     Address                         Age
+                 1.               Rupu                     Agarpara                         22
+                 2.               Rup                 Salt Lake, Sector-2                   20
+                 3.               Rupayan                   Fulia                           24
+                 4.               Rupi                      Newtown                         21
+[Note: Sl. No. 2 Customer named “Rup” entered the wrong address by mistake. Now, he have to update his “Address” in Amazon’s database]
+Syntax: update table_name 
+               set want_toUpdate_column_name 
+               where unique_column_name= ”condition”;
+Command: update Customer set Address=”Salt Lake, Sector-5” where SlNo= 2;
+Output:
+                SlNo              Name                     Address                         Age
+                 1.               Rupu                     Agarpara                         22
+                 2.               Rup                 Salt Lake, Sector-5                   20
+                 3.               Rupayan                   Fulia                           24
+                 4.               Rupi                      Newtown                         21
+Important Points:
+1.	Always use where clause with update statement.
+2.	Risky Command.
+                                                                                  -------×-------
