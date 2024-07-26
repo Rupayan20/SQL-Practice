@@ -1,0 +1,24 @@
+Lecture-12:
+Select Top Clause in SQL:
+
+Select Top: It is used to return specific number of records from table.
+                       It is widely used with large table/database.
+Example: Amazon => Database => Customer
+                SlNo              Name                     Address                         Age
+                   1.             Rupu                     Agarpara                         22
+                   2.             Rup                Salt Lake, Sector-2                    20
+                   3.             Rupayan                   Fulia                           24
+                   4.             Rupi                      Newtown                         21
+                   5.             RD                        Phulia                           27
+                   6.             Rupi                      Baruipur                         25
+[Note: We need specific top 50% data from the database]
+Syntax: select TOP  “Condition” from “Table_name”;
+[Note: In other databse, we have to use -> limit, fetch, first
+Please go through this documentation: https://www.w3schools.com/sql/sql_top.asp]
+Command: select TOP 50 Percent from Customer;
+Output: 
+                SlNo              Name                     Address                         Age
+                   1.             Rupu                     Agarpara                         22
+                   2.             Rup                Salt Lake, Sector-2                    20
+                   3.             Rupayan                   Fulia                           24
+                                                                                  -------×-------
