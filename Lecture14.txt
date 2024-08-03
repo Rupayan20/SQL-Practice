@@ -1,0 +1,21 @@
+Lecture-14:
+Aggregate Function in SQL:
+
+Aggregate: An aggregate function is a function that performs a calculation on a set of values, and returns a single value.
+
+The most commonly used SQL aggregate functions are:
+1.	MIN() - returns the smallest value within the selected column
+2.	MAX() - returns the largest value within the selected column
+3.	COUNT() - returns the number of rows in a set
+4.	SUM() - returns the total sum of a numerical column
+5.	AVG() - returns the average value of a numerical column
+[Note: Aggregate functions ignore null values (except for COUNT()).]
+
+Example: Amazon => Database => Customer
+                SlNo              Name                     Address                         Age
+                  1.               Rupu                    Agarpara                          22
+                  2.                Rup             Salt Lake, Sector-2                    20
+                  3.              Rupayan                    Fulia                               24
+                  4.                 Rupi                    Newtown                            21
+[Note: Provide me count of people column present; also provide me max, min, avg age, sum price]
+                                                                       -------×-------
