@@ -1,0 +1,21 @@
+Lecture-15:
+MIN & MAX Function in SQL:
+
+Example: Amazon => Database => Customer
+                SlNo              Name                     Address                         Age
+                  1.              Rupu                     Agarpara                         22
+                  2.               Rup               Salt Lake, Sector-2                    20
+                  3.             Rupayan                     Fulia                           24
+                  4.               Rupi                      Newtown                         21
+[Note: Find out the minimum and maximum  age of customer]
+
+Min Value: It returns smallest value from the record in selected table. It is also working with alphabetic/string values.
+Syntax for MIN: select MIN specific_column from table_name;
+Command: select MIN(Age) from Customer;
+Output:  20
+
+Max Value: It returns the maximum value from the record in selected table. It is also working with alphabetic/string values.
+Syntax for MAX: select MAX specific_column from table_name;
+Command: select MAX(Age) from Customer;
+Output:  24
+                                                                                  -------×-------
