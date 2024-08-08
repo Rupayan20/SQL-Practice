@@ -1,0 +1,23 @@
+Lecture-16:
+Count Function in SQL:
+Count: It is used to return number of record in a table or may be in a particular row.
+
+Example: Amazon => Database => Customer
+                SlNo              Name                     Address                         Age
+                  1.              Rupu                     Agarpara                         22
+                  2.               Rup               Salt Lake, Sector-2                    20
+                  3.             Rupayan                     Fulia                          24
+                  4.             Rupayan                    Newtown                         21
+Command: select Count (*) from Customer;
+Output:  4
+
+[Note: For duplicate value]
+Syntax: select Count (Distinct  column_name) from table_name;
+Command: select Count (Distinct  Name) from Customer;
+Output:  3
+
+[Note: For particular condition]
+Syntax: select Count (*) from Customer where condition_given;
+Command: select Count (*) from Customer where Age>22;
+Output:  1
+                                                                                  -------×-------
