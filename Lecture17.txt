@@ -1,0 +1,19 @@
+Lecture-17:
+SUM Function in SQL:
+
+Sum: It is used to return sum of numeric column. It is never works with varchar column.
+Example: Amazon => Database => Customer
+                SlNo             Agent_Name                     Total_Sale                    
+                 1.                 Rupu                           25000
+                 2.                 Rup                            37500
+                 3.               Rupayan                          39850
+                 4.               Rupayan                          18653
+Syntax: select SUM (column_name) from table_name;
+Command: select SUM (Total_Sale) from Customer;
+Output:  121003
+
+[Note: For particular condition]
+Syntax: select SUM (column_name) from Customer where condition_given;
+Command: select Count (Total_Sale) from Customer where Agent_Name=”Rupayan”;
+Output:  58503
+                                                                                  -------×-------
