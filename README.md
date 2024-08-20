@@ -10,23 +10,41 @@
 
 ## Lecture Details
   Lecture 1: Introduction To SQL
+  <br>
   Lecture 2: Select Statement in SQL || Select Statement With 3 Different Ways
+  <br>
   Lecture 3: Where Clause in SQL || Where Clause With Real Life Example
-  Lecture 4: Operator Used With Where Clause in SQL || Operator in Where Clause With Example 
+  <br>
+  Lecture 4: Operator Used With Where Clause in SQL || Operator in Where Clause With Example
+  <br>
   Lecture 5: Order By Keyword in SQL || Order By With Real Life Example 
+  <br>
   Lecture 6: AND Operator in SQL || AND Operator With Example 
+  <br>
   Lecture 7: OR Operator in SQL || AND Operator With Example 
+  <br>
   Lecture 8: NOT Operator in SQL || AND Operator With Example 
+  <br>
   Lecture 9: Insert Into Statement in SQL || AND Operator With Example 
+  <br>
   Lecture 10: IS NULL & IS NOT NULL in SQL || Handle Null Values in Database 
+  <br>
   Lecture 11: Update Statement in SQL
+  <br>
   Lecture 12: Delete Statement in SQL
-  Lecture 13: Select Top Clause in SQL 
+  <br>
+  Lecture 13: Select Top Clause in SQL
+  <br>
   Lecture 14: Aggregate Function in SQL
+  <br>
   Lecture 15: MIN & MAX Function in SQL 
+  <br>
   Lecture 16: Count Function in SQL 
+  <br>
   Lecture 17: SUM Function in SQL 
+  <br>
   Lecture 18: Average Function in SQL 
+  <br>
 
 ## Tools
 <p> Online Compiler: https://www.programiz.com/sql/online-compiler/</p>
