@@ -13,7 +13,7 @@ Command: select SUM (Total_Sale) from Customer;
 Output:  121003
 
 [Note: For particular condition]
-Syntax: select SUM (column_name) from Customer where condition_given;
+Syntax: select SUM (column_name) from Table_name where condition_given;
 Command: select SUM (Total_Sale) from Customer where Agent_Name=”Rupayan”;
 Output:  58503
                                                                                   -------×-------
