@@ -14,6 +14,6 @@ Output:  121003
 
 [Note: For particular condition]
 Syntax: select SUM (column_name) from Customer where condition_given;
-Command: select Count (Total_Sale) from Customer where Agent_Name=”Rupayan”;
+Command: select SUM (Total_Sale) from Customer where Agent_Name=”Rupayan”;
 Output:  58503
                                                                                   -------×-------
