@@ -1,0 +1,19 @@
+Lecture-18:
+Average Function in SQL:
+Average: It is used to return average of numeric row.
+
+Example: Amazon => Database => Customer
+                SlNo             Agent_Name                     Total_Sale                 Age                 
+                 1.                 Rupu                           25000                    40
+                 2.                 Rup                            37500                    36
+                 3.                Rupayan                         39850                    51
+                 4.                 Rupi                           18653                    24
+Syntax: select Avg (column_name) from table_name;
+Command: select Avg (Total_Sale) from Customer;
+Output:  30250.75
+
+[Note: For particular condition]
+Syntax: select AVG (column_name) from Table_name where condition_given;
+Command: select AVG (Total_Sale) from Customer where age>36;
+Output:  32425
+                                                                                  -------×-------
