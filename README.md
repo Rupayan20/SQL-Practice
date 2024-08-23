@@ -70,3 +70,7 @@ SQL-Practice/
 
 ## Contributing
 <p> We welcome contributions from the community! If you have notes, examples, or improvements to share, please submit a pull request or open an issue. </p>
+
+## Learn DBMS
+If you want to know more about DBMS, please visit my [DBMS Learn Repository](https://github.com/Rupayan20/DBMS-Learn).
+
