@@ -8,8 +8,7 @@
 ## Getting Started
 <p> If you are new to SQL, start with the Basic SQL section. For those looking to deepen their understanding, the Intermediate SQL and Advanced SQL sections offer more complex topics. The Performance Tuning section provides insights into optimizing SQL queries. </p>
 
-## Lecture Details
-  ### Directory Structure
+## Lecture Structure
 
 ```bash
 SQL-Practice/
